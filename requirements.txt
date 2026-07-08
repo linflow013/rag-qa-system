@@ -1,0 +1,45 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# Document parsing
+pdfplumber==0.11.0
+PyMuPDF==1.24.0
+python-docx==1.1.0
+Pillow==10.4.0
+
+# OCR
+paddleocr==2.8.0
+
+# Embeddings and models
+sentence-transformers==3.0.0
+
+# Text processing
+langchain-text-splitters==0.2.0
+jieba==0.42.1
+langdetect==1.0.9
+rank-bm25==0.2.2
+
+# Vector store
+chromadb==0.5.0
+
+# LLM clients
+openai==1.40.0
+
+# Evaluation
+ragas==0.1.20
+datasets==2.20.0
+
+# CLI and logging
+rich==13.7.0
+python-json-logger==2.0.7
+
+# Config
+python-dotenv==1.0.1
+pyyaml==6.0.1
+
+# Testing
+pytest==8.3.0
+pytest-asyncio==0.23.0
+httpx==0.27.0

@@ -1,0 +1,26 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# Index (rebuildable)
+chroma_db/
+
+# Logs (may contain sensitive data)
+logs/*.jsonl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (downloaded at runtime)
+models/
