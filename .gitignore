@@ -12,7 +12,7 @@ __pycache__/
 chroma_db/
 
 # Logs (may contain sensitive data)
-logs/*.jsonl
+logs/
 
 # IDE
 .vscode/
